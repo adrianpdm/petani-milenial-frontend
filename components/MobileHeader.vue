@@ -58,7 +58,7 @@ export default {
   },
   methods: {
     joinNow () {
-      window.open(process.env.BERGABUNG_SEKARANG, '_blank')
+      window.open(process.env.NUXT_ENV_BERGABUNG_SEKARANG, '_blank')
     },
     onDone () {
       this.activeMenu = false

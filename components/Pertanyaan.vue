@@ -21,7 +21,7 @@
 export default {
   methods: {
     askNow () {
-      window.open(process.env.TANYAKAN_SEKARANG, '_blank')
+      window.open(process.env.NUXT_ENV_TANYAKAN_SEKARANG, '_blank')
     }
   }
 }

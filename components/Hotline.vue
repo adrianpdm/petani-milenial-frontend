@@ -24,7 +24,7 @@
 export default {
   methods: {
     contactNow () {
-      window.open(process.env.HUBUNGI_SEKARANG, '_blank')
+      window.open(process.env.NUXT_ENV_HUBUNGI_SEKARANG, '_blank')
     }
   }
 }

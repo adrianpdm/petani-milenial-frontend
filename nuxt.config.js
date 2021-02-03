@@ -36,7 +36,6 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/dotenv',
     '@nuxtjs/google-fonts'
   ],
 
@@ -55,12 +54,12 @@ export default {
   },
 
   googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID // Use as fallback if no runtime config is provided
+    id: process.env.NUXT_ENV_GOOGLE_ANALYTICS_ID // Use as fallback if no runtime config is provided
   },
 
   publicRuntimeConfig: {
     googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
+      id: process.env.NUXT_ENV_GOOGLE_ANALYTICS_ID
     }
   },
 
