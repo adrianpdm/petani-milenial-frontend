@@ -12,9 +12,7 @@
         </div>
       </div>
       <div class="list-program__divider" />
-      <transition name="slide">
-        <img :src="require(`~/assets/${programs[programActive].image1}`)" alt="" class="object-cover h-56 w-full rounded-lg col-start-1 col-span-10 row-span-6 md:col-start-7 md:row-start-3 md:col-span-4 md:row-span-4">
-      </transition>
+      <img v-lazy-load data-src="~/assets/images/petani/landing-page-1a.jpg" alt="" class="object-cover h-56 w-full rounded-lg col-start-1 col-span-10 row-span-6 md:col-start-7 md:row-start-3 md:col-span-4 md:row-span-4">
       <div v-for="(program, index) in programs" :key="index" class="cursor-pointer md:col-span-6 col-start-1 hidden md:block" @click="$store.commit('program/SET_PROGRAM_ACTIVE',index)">
         <div class="flex items-center">
           <div :class="{'bg-hijau-700': programActive == index}" class="bg-abu-500 h-4 w-4 rounded-full mr-4" />
@@ -60,16 +58,6 @@ export default {
 }
 </script>
 <style lang="postcss" scoped>
-.slide-leave-active,
-.slide-enter-active {
-  transition: opacity 1s ease;
-}
-.slide-enter {
-  opacity: 0;
-}
-.slide-leave-to {
-  opacity: 0;
-}
 
 .list-program{
   @apply grid grid-cols-10 gap-x-2 gap-y-2 md:gap-y-6 py-4 md:py-20

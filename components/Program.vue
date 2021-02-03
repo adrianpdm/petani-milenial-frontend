@@ -1,7 +1,7 @@
 <template>
   <div class="bg-hijau-50">
     <div class="wrapper program">
-      <img :key="programs[programActive].id" :src="require(`~/assets/${programs[programActive].image2}`)" class="object-cover h-56 w-full rounded-xl" alt="">
+      <img v-lazy-load :data-src="require(`~/assets/${programs[programActive].image2}`)" class="object-cover h-56 w-full rounded-xl" alt="">
       <div v-if="programs[programActive].type === 'paragraph'" class="grid gap-4">
         <h2 class="font-semibold text-lg md:text-2xl text-black">
           {{ programs[programActive].title }}

@@ -69,7 +69,8 @@ export default {
       duration: 1000,
       easing: 'ease',
       offset: 0
-    }]
+    }],
+    'nuxt-lazy-load'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
