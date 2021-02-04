@@ -40,10 +40,7 @@
         <span class="text-abu-700 text-sm">Jl. Surapati No.71, Sadang Serang, Kecamatan Coblong, Kota Bandung, Jawa Barat 40133</span>
       </div>
       <div class="flex flex-row flex-wrap justify-evenly lg:justify-between col-span-4 md:col-span-5 gap-4">
-        <img src="~/assets/images/logo/pemprov-footer.png" class="h-12" alt="">
         <img src="~/assets/images/logo/dtph-footer.png" class="h-12" alt="">
-        <img src="~/assets/images/logo/diskominfo-footer.png" class="h-12" alt="">
-        <img src="~/assets/images/logo/jds-footer.png" class="h-12" alt="">
       </div>
       <div class="flex items-center justify-center md:col-start-7 col-span-4">
         <span class="text-abu-700 text-xs md:text-sm text-center">Copyright © Pemerintah Provinsi Jawa Barat 2021. All rights reserved</span>
