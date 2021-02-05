@@ -14,15 +14,15 @@
           Bergabung sekarang
         </button>
         <div class="hidden md:block w-9/12 self-end">
-          <img src="~/assets/images/frame.svg" alt="">
+          <img src="~/assets/images/frame.svg" alt="" data-not-lazy>
         </div>
       </div>
       <div class="w-full md:w-1/2 mt-12 md:mt-0 flex items-center">
-        <img src="~/assets/images/aset-banner.png" alt="">
+        <img src="~/assets/images/aset-banner.png" alt="" data-not-lazy>
       </div>
     </div>
     <div class="hidden md:block circle">
-      <img src="~/assets/images/ellipse.svg" alt="">
+      <img src="~/assets/images/cirlce.svg" alt="" data-not-lazy>
     </div>
   </div>
 </template>
