@@ -8,7 +8,7 @@ const program = [
       'Melalui pemanfaatan teknologi digital, petani milenial akan menggerakkan kewirausahaan bidang agrikultur yang menjadikan wajah pertanian menjadi lebih segar dan atraktif untuk bisa berkelanjutan di Jawa Barat.'
     ],
     image1: 'images/petani/landing-page-1a.jpg',
-    image2: 'images/petani/landing-page-1b.jpg'
+    image2: 'images/petani/landing-page-1b-min.jpg'
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const program = [
       'Program Petani Milenial diharapkan dapat menyelesaikan masalah keterbatasan tenaga kerja sehingga bisa meningkatkan produktivitas dan mencapai swasembada pangan.'
     ],
     image1: 'images/petani/landing-page-2a.JPG',
-    image2: 'images/petani/landing-page-2b.jpg'
+    image2: 'images/petani/landing-page-2b-min.jpg'
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const program = [
       'Pemberian Fasilitasi Pembiayaan dan Pemasaran Produk'
     ],
     image1: 'images/petani/landing-page-3a.jpg',
-    image2: 'images/petani/landing-page-3b.JPG'
+    image2: 'images/petani/landing-page-3b-min.JPG'
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const program = [
       'Memiliki pengalaman sebagai petani'
     ],
     image1: 'images/petani/landing-page-4a.JPG',
-    image2: 'images/petani/landing-page-4b.JPG'
+    image2: 'images/petani/landing-page-4b-min.JPG'
   }
 ]
 export default program

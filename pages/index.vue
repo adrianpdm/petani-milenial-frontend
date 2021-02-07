@@ -7,7 +7,6 @@
     <list-program />
     <Program />
     <Hotline />
-    <Pertanyaan />
     <Footer />
   </div>
 </template>
