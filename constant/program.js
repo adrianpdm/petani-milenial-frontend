@@ -18,7 +18,7 @@ const program = [
       'Saat ini, sektor pertanian nampaknya belum menjadi magnet pekerjaan bagi generasi milenial di Jawa Barat. Jumlah petani muda di Jawa Barat masih relatif kecil. Padahal kita butuh tenaga baru di bidang pertanian yang sampai saat ini adalah sektor penyumbang ekonomi terbesar ke-3 di Jawa Barat.',
       'Program Petani Milenial diharapkan dapat menyelesaikan masalah keterbatasan tenaga kerja sehingga bisa meningkatkan produktivitas dan mencapai swasembada pangan.'
     ],
-    image1: 'images/petani/landing-page-2a.JPG',
+    image1: 'images/petani/landing-page-2a.jpg',
     image2: 'images/petani/landing-page-2b.jpg'
   },
   {
@@ -35,7 +35,7 @@ const program = [
       'Pemberian Fasilitasi Pembiayaan dan Pemasaran Produk'
     ],
     image1: 'images/petani/landing-page-3a.jpg',
-    image2: 'images/petani/landing-page-3b.JPG'
+    image2: 'images/petani/landing-page-3b.jpg'
   },
   {
     id: 4,
@@ -46,8 +46,8 @@ const program = [
       'Mengenal inovasi teknologi bidang pertanian',
       'Memiliki pengalaman sebagai petani'
     ],
-    image1: 'images/petani/landing-page-4a.JPG',
-    image2: 'images/petani/landing-page-4b.JPG'
+    image1: 'images/petani/landing-page-4a.jpg',
+    image2: 'images/petani/landing-page-4b.jpg'
   }
 ]
 export default program
