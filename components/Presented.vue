@@ -9,6 +9,8 @@
         <img class="h-12" src="~/assets/images/logo/indag-logo.png" alt="">
         <img class="h-12" src="~/assets/images/logo/dishut-logo.png" alt="">
         <img class="h-12" src="~/assets/images/logo/diskuk-jabar.png" alt="">
+        <img class="h-12" src="~/assets/images/logo/diskominfo.png" alt="">
+        <img class="h-12" src="~/assets/images/logo/logo-bjb.svg" alt="">
         <img class="h-12" src="~/assets/images/logo/dpmd.png" alt="">
       </div>
     </div>

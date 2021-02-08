@@ -30,7 +30,7 @@
           Ikuti Kami
         </h3>
         <a href="https://www.facebook.com/dinastphjabar/" target="_blank" class="text-abu-700 text-sm">Facebook</a>
-        <a href="https://www.instagram.com/dinastphjabar" target="_blank" class="text-abu-700 text-sm">Instagram</a>
+        <a href="https://www.instagram.com/petanimilenialjabar/" target="_blank" class="text-abu-700 text-sm">Instagram</a>
         <a href="https://twitter.com/dinastphjabar" target="_blank" class="text-abu-700 text-sm">Twitter</a>
       </div>
       <div class="flex flex-col gap-y-2 col-span-4 md:col-span-3">
