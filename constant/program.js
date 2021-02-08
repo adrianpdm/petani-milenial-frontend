@@ -31,7 +31,7 @@ const program = [
       'Penentuan Komoditas Pertanian',
       'Pendataan Petani Milenial',
       'Pengembangan Kapasitas Petani Milenial',
-      'Pemberian Bantuan Benih. Bibit, Pupuk, Pestisida, dan Peralatan',
+      'Pemberian Bantuan Benih, Bibit, Pupuk, Pestisida, dan Peralatan',
       'Pemberian Fasilitasi Pembiayaan dan Pemasaran Produk'
     ],
     image1: 'images/petani/landing-page-3a.jpg',
