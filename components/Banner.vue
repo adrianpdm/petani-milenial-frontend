@@ -5,12 +5,12 @@
         <h1 class="text-2xl md:text-5xl font-bold mb-6 mt-6 md:mt-0">
           Petani Milenial Juara
         </h1>
-        <p class="font-medium text-sm md:text-base md:w-11/12 mb-8">
+        <p class="font-medium text-sm md:text-base md:w-11/12 mb-8 md:mb-24">
           Jadilah penentu kemajuan pertanian masa depan melalui inovasi dan
           pemanfaatan teknologi digital. Kamu bisa jadi wajah baru pertanian
           modern Jawa Barat yang mandiri, produktif, dan berkelanjutan.
         </p>
-        <button class="bg-hijau-700 rounded-md text-white px-6 py-2 md:py-3 font-medium mb-12 md:mb-24" @click="joinNow()">
+        <button v-show="false" class="bg-hijau-700 rounded-md text-white px-6 py-2 md:py-3 font-medium mb-12 md:mb-24" @click="joinNow()">
           Bergabung sekarang
         </button>
         <div class="hidden md:block w-9/12 self-end">

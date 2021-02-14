@@ -7,7 +7,7 @@
       <div class="menu">
         <ul>
           <li class="flex items-center justify-between gap-6">
-            <div class="text-center font-medium text-lg cursor-pointer" @click="joinNow()">
+            <div v-show="false" class="text-center font-medium text-lg cursor-pointer" @click="joinNow()">
               Bergabung Sekarang
             </div>
             <div v-scroll-to="'#tentang-kami'" class="text-center font-medium text-lg cursor-pointer">
