@@ -22,7 +22,7 @@
       <div v-if="activeMenu" class="bg-white shadow absolute w-full t-0 z-10">
         <ul>
           <li class="wrapper grid grid-cols-1 gap-4 py-3">
-            <div class="font-medium text-md cursor-pointer" @click="joinNow()">
+            <div v-show="false" class="font-medium text-md cursor-pointer" @click="joinNow()">
               Bergabung Sekarang
             </div>
             <div
