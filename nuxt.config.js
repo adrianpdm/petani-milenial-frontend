@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Petani Milenial',
+    title: 'Petani Milenial Juara - Pemerintah Provinsi Jawa Barat',
     htmlAttrs: {
       lang: 'id'
     },
