@@ -43,8 +43,7 @@ const program = [
     type: 'list',
     content: [
       'Berusia 19-39 tahun',
-      'Mengenal inovasi teknologi bidang pertanian',
-      'Memiliki pengalaman sebagai petani'
+      'Mengenal inovasi teknologi bidang pertanian'
     ],
     image1: 'images/petani/landing-page-4a.jpg',
     image2: 'images/petani/landing-page-4b.jpg'
