@@ -5,7 +5,7 @@
         Tinggal di Desa, Rezeki Kota, Bisnis Mendunia!
       </h2>
       <div class="cols-start-1 col-span-10 md:hidden flex flex-row justify-between items-center">
-        <span class="text-abu-600 font-semibold text-sm w-9/12">{{ programs[programActive].title }}</span>
+        <span v-if="programs[programActive]" class="text-abu-600 font-semibold text-sm w-9/12">{{ programs[programActive].title }}</span>
         <div class="inline-flex gap-2">
           <img class="cursor-pointer" src="~/assets/images/arrow-left.svg" alt="" @click="prevProgram()">
           <img class="cursor-pointer" src="~/assets/images/arrow-right.svg" alt="" @click="nextProgram()">
@@ -23,12 +23,15 @@
   </div>
 </template>
 <script>
-import programs from '~/constant/program'
 export default {
   data () {
     return {
-      programs
+      programs: []
     }
+  },
+  async fetch () {
+    this.programs = await this.$content('faq-program')
+      .fetch()
   },
   computed: {
     programActive () {
