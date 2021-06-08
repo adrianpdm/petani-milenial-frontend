@@ -32,10 +32,11 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxt/content',
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics',
+    // '@nuxtjs/google-analytics',
     '@nuxtjs/google-fonts'
   ],
 
